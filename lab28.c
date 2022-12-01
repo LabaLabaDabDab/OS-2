@@ -27,7 +27,7 @@ int main(int argc, char *argv[]){
     char request_template[] = "GET / HTTP/1.1\r\nHost: %s\r\n\r\n";
     int errorCode;
     int sockfd;
-    const char * port = "80";
+    const char *port = "80";
     
     if (2 != argc) {
         fprintf(stderr, "Usage: url\n");
